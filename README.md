@@ -23,6 +23,7 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 3. Gerenciamento de chamados.
 
     3.1 - **Histórias de Usuário**: Como, usuário quero vizualizar meu chamado para acompanhar o andamento da solicitação.
+    
     3.2 - **Histórias de Uusário**: Como, técnico quero vizualizar, atualizar e responder a um novo chamado.
 
     - Deve exibir a lista de chamados com seu status único (Aberto, Em andamento, Fechado).
