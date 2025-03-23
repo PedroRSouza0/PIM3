@@ -6,15 +6,34 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 ### Requisitos Funcionais
 1. Cadastrar Usuário
 
-    1.1 - **Histórias de Usuário**: Como, Usuário quero me cadastrar no sistema para abrir chamados.
+    1.1 - **Histórias de Usuário** - Cadastro de Clientes:
 
-    - Deve permitir o cadastro com nome, e-mail e senha.
-    - Deve-se validar e-mail.
-    * Deve-se permitir recuperação de senha.
+    Como ADM, quero ser o único a cadastrar clientes no sistema.
 
-100. Criação de chamados.
+    - Deve criar a funcionalidade cadastro de clientes.
+    - Restringi-la somente ao ADM do sistema.
+    - Validar dados, (E-mail, nome, senha).
+    - Exibir mensagem de erro ou sucesso.
 
-    2.1 - **Histórias de Usuário**: Como, usuário quero utilizar o sistema para solicitar ajuda detalhando o meu problema através de chamados.
+    1.2 **Histórias de Usuário**: - Alterar Senha.
+
+    Como ADM, quero poder alterar a senha do usuário quando solicitado, garantindo o controle de acesso ao sistema.
+
+    - Criar funcionalidade para a alteração de senha.
+    - Validar dados da nova senha.
+    - Exibir mensagem de erro ou sucesso.
+
+3. Login
+
+    2.1 - **Histórias de Usuário**: Como Usuário, quero logar no sistema para fazer o uso das funcionalidades.
+
+    - Criar o sistema de Login.
+    - Validar dados de cadastro, (E-mail, nome, senha).
+    - Exibir mensagem de erro ou sucesso.
+
+4. CRUD de Chamados.
+
+    3.1 - **Histórias de Usuário**: Como, usuário quero utilizar o sistema para solicitar ajuda detalhando o meu problema através de chamados.
 
     - Deve permitir vizualizar o chamado criado
     - Deve registrar as informações do usuário solicitador
