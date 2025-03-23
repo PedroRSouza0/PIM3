@@ -25,7 +25,9 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 
 3. Login
 
-    2.1 - **Histórias de Usuário**: Como Usuário, quero logar no sistema para fazer o uso das funcionalidades.
+    2.1 - **Histórias de Usuário**: - Login.
+
+    Como Usuário, quero logar no sistema para fazer o uso das funcionalidades.
 
     - Criar o sistema de Login.
     - Validar dados de cadastro, (E-mail, nome, senha).
@@ -33,11 +35,17 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 
 4. CRUD de Chamados.
 
-    3.1 - **Histórias de Usuário**: Como, usuário quero utilizar o sistema para solicitar ajuda detalhando o meu problema através de chamados.
+    4.1 - **Histórias de Usuário**: - Criar Chamado
 
-    - Deve permitir vizualizar o chamado criado
-    - Deve registrar as informações do usuário solicitador
-    - O usuário deve especificar o nível de prioridade do chamado (Baixa, Média, Alta, Urgente).
+    Como usuário quero utilizar o sistema para abrir um novo chamado e solicitar suporte.
+
+    - Criar o sistema de Novo chamado.
+    - Permitir que o usuário infome sobre o chamado. (Título, descrição do problema, categoria e prioridade).
+    - Exibir mensagem de erro ou sucesso ao criar o chamado.
+
+    4.2 **Histórias de Usuário**: - Vizualizar Chamado
+
+    Como usuário
 
 3. Gerenciamento de chamados.
 
