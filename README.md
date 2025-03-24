@@ -59,7 +59,16 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
     - Salvar os dados alterados
     - Exibir mensagem de erro ou sucesso.
 
-    3.4 **Histórias de Usuário** - Excluir Chamado.
+    3.4 **Histórias de Usuário** - Cancelar Chamado
+
+    Como usuário, quero poder cancelar um chamado antes dele ser resolvido caso não precise mais de suporte.
+
+    - Verificar se o chamado está aberto.
+    - Restringir o cancelamento apenas a chamados ainda não resolvidos.
+    - Exibir mensagem de confirmação.
+    - Registrar o motivo do cancelamento.
+
+    3.5 **Histórias de Usuário** - Excluir Chamado.
 
     Como ADM, quero excluir chamados fechados, garantindo a organização do trabalho.
 
