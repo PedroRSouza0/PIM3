@@ -61,18 +61,13 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 
     3.4 **Histórias de Usuário** - Excluir Chamado.
 
-    Como ADM, 
+    Como ADM, quero excluir chamados fechados, garantindo a organização do trabalho.
 
-3. Gerenciamento de chamados.
+    - Criar a funcionalidade de exclusão.
+    - Validar dados do Administrador.
+    - Restringir funcionalidade somente ao ADM.
+    - Exibir mensagem de erro ou sucesso.
 
-    3.1 - **Histórias de Usuário**: Como, usuário quero vizualizar meu chamado para acompanhar o andamento da solicitação.
-    
-    3.2 - **Histórias de Uusário**: Como, técnico quero vizualizar, atualizar e responder a um novo chamado.
-
-    - Deve exibir a lista de chamados com seu status único (Aberto, Em andamento, Fechado).
-    - Técnicos recebem os chamados definidos com status de prioridade (Baixa, Média, Alta, Urgente).
-    - Técnicos podem responder, atualizar e fechar um chamado.
-    - Usuários podem vizualizar as respostas do técnico.
 
 4. Sugestão de Soluções por IA.
 
