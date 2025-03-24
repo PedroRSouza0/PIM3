@@ -72,4 +72,8 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
     - Integração com IA.
     - Segurança dos dados
         - Máscara na senha.
+
     
+Diagrama de Caso de Uso
+![Diagrama de Caso de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaProjeto.asta)
+
