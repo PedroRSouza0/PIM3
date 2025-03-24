@@ -69,14 +69,42 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
     - Exibir mensagem de erro ou sucesso.
 
 
-4. Sugestão de Soluções por IA.
+4. Filtragem e Resolução de Chamados por IA.
 
-    4.1 **Histórias de Usuário**: Como usúario, quero receber sugestões autómaticas por IA, visando resolver o meu problema sem a necessidade de chamar um técnico.
-    4.2 **Histórias de Usuário**: Como técnico, quero receber sugestões da IA para otimizar o resolvendo problemas.
+    4.1 **Histórias de Usuário** - Filtragem de Chamados.
 
-    - A IA deverá entender o problema, sabendo categoriza-lo e resolve-lo com base em situações semelhantes.
-    - O usuário poderá ser capaz de responder se a solução funcionou ou não. Podendo acionar um técnico caso a resposta seja não.
-    - Os técnicos podem utilizar ou não as respostas de IA. 
+    Como IA, quero analisar os chamados automáticamente, identificando o problema e sua categoria.
+
+    - Criar um mecanismo de IA para analisar os chamados.
+    - Receber o feedback da IA após a filtragem com as especifiações do problema.
+    - Exibir mensagem indicando que ela resolverá ou se será necessário acionar um técnico.
+
+    4.2 **Histórias de Usuário** - Resolução por IA.
+
+    Como usuário, quero receber a resolução do problema solicitado após a filtragem e análise do mesmo, diminuindo o tempo de espera.
+
+    - Criar a funcionalidade para a IA dar sugestões automáticas. 
+    - Validar as soluções antes de encerrar o chamado.
+    - Caso a solução não resolver, encaminhar ao técnico especialista.
+
+5. Resolução por Técnico.
+
+    5.1 **Histórias de Usuário** - Encaminhamento de chamados
+
+    Como sistema, quero enchaminhar chamados aos técnicos quando a IA não resolve-los.
+
+    - Criar a funcionalidade de acionar técnico.
+    - Enviar uma notificação ao técnico contendo o problema e suas especificações.
+    - Alterar o status do chamado ao usuário para "Aguardando Técnico".
+
+    5.2 **Histórias de Usuário** - Resolução por Técnico
+
+    Como técnico, quero analisar os chamados encaminhados para análisa-los e devolver uma solução.
+
+    - Criar interface para os técnicos vizualizarem os chamados.
+    - Verificar e validar dados de acesso do técnico.
+    - Permitir que o técnico registre a solução.
+    - Exibir mensagem de erro ou sucesso.
 
 ### Requisitos não funcionais
     - Compatibilidade com SQL Server.
