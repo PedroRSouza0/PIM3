@@ -23,7 +23,7 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
     - Validar dados da nova senha.
     - Exibir mensagem de erro ou sucesso.
 
-3. Login
+2. Login
 
     2.1 - **Histórias de Usuário**: - Login.
 
@@ -33,9 +33,9 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
     - Validar dados de cadastro, (E-mail, nome, senha).
     - Exibir mensagem de erro ou sucesso.
 
-4. CRUD de Chamados.
+3. CRUD de Chamados.
 
-    4.1 - **Histórias de Usuário**: - Criar Chamado
+    3.1 - **Histórias de Usuário** - Criar Chamado
 
     Como usuário quero utilizar o sistema para abrir um novo chamado e solicitar suporte.
 
@@ -43,9 +43,25 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
     - Permitir que o usuário infome sobre o chamado. (Título, descrição do problema, categoria e prioridade).
     - Exibir mensagem de erro ou sucesso ao criar o chamado.
 
-    4.2 **Histórias de Usuário**: - Vizualizar Chamado
+    3.2 **Histórias de Usuário** - Vizualizar Chamado
 
-    Como usuário
+    Como usuário, quero vizualizar o chamado recém criado, ou chamados antigos em espera para consultar o andamento.
+
+    - Permitir a visualização dos chamados disponiveís.
+    - Permitir a visualização das especificações dos chamados.
+    - Exibir status do chamado (Aberto, Em andamento, Fechado).
+
+    3.3 **Histórias de Usuário** - Editar Chamado
+
+    Como usuário, quero poder editar os chamados criados, permitindo incluir ou excluir especificações, facilitando a resolução.
+
+    - Permitir a edição das especificações a partir da vizualização do chamado.
+    - Salvar os dados alterados
+    - Exibir mensagem de erro ou sucesso.
+
+    3.4 **Histórias de Usuário** - Excluir Chamado.
+
+    Como ADM, 
 
 3. Gerenciamento de chamados.
 
