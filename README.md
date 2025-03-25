@@ -116,10 +116,19 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
     - Exibir mensagem de erro ou sucesso.
 
 ### Requisitos não funcionais
-    - Compatibilidade com SQL Server.
-    - Integração com IA.
-    - Segurança dos dados
-        - Máscara na senha.
+1. Banco de Dados e Compatibilidade
+
+    1.1 - O sistema deve ser compatível com SQL Server, garantindo a integridade e consistência dos dados armazenados.
+
+2. Inteligência Artificial
+
+    2.1 - O sistema deve integrar um módulo de IA para análise e resolução de chamados, permitindo a triagem automática de problemas e sugestão de soluções antes do encaminhamento a um técnico.
+
+3. Segurança
+
+    3.1 - As senhas dos usuários devem ser armazenadas de forma segura, utilizando hash e criptografia para evitar acessos não autorizados.
+    
+    3.2 - O campo de entrada de senha deve exibir os caracteres mascarados, impedindo a visualização por terceiros durante a digitação.
 
     
 Diagrama de Caso de Uso
