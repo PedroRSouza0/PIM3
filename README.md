@@ -145,7 +145,7 @@ Diagrama de sequencia, Relatório e Documentação.
 Diagrama ER, Definição das entidades, Definição dos Relacionamentos, Modelagem das Tabelas em SQL Server, Relatório e Documentação
 
 ### Sprint 4 (22/04 - 28/04):
-Criação das Interfaces, Tela Menu, Tela Login, Tela Cadastro, Tela CRUD Chamados, Relatório e Documentação.
+Criação das Interfaces, Tela Menu, Tela Login, Tela Cadastro, Tela CRUD Chamados, Fluxo de Usuário, Relatório e Documentação.
 
 ### Sprint 5 (29/04 - 05/05):
 Fluxo de Usuário, Relatório e Documentação.
