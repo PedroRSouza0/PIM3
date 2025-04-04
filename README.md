@@ -142,7 +142,7 @@ Diagramas de Classe, Diagrama de Objeto, Relatório e Documentação.
 Diagrama de sequencia, Relatório e Documentação.
 
 ### Sprint 3 (15/04 - 21/04):
-Diagrama ER, Definição das entidades, Definição dos Relacionamentos, Modelagem das Tabelas em SQL Server, Relatório e Documentação
+Diagrama ER, Definição das entidades, Definição dos Relacionamentos, Modelagem das Tabelas em SQL Server, Dicionário de Dados, Relatório e Documentação
 
 ### Sprint 4 (22/04 - 28/04):
 Criação das Interfaces, Tela Menu, Tela Login, Tela Cadastro, Tela CRUD Chamados, Fluxo de Usuário, Relatório e Documentação.
