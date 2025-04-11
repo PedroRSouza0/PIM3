@@ -9,19 +9,12 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 ## Diagrama de Caso de Uso
 [![Diagrama de Caso de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/Caso_De_Uso.png?raw=true)](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaProjeto.asta)
 
-## Sprint Backlog 
-### Sprint 1 (01/04 - 07/04):
-Diagramas de Classe, Diagrama de Objeto, Relatório e Documentação.
+## Sprint Backlog
 
-### Sprint 2 (08/04 - 14/04):
-Diagrama de sequencia, Relatório e Documentação.
-
-### Sprint 3 (15/04 - 21/04):
-Diagrama ER, Definição das entidades, Definição dos Relacionamentos, Modelagem das Tabelas em SQL Server, Dicionário de Dados, Relatório e Documentação
-
-### Sprint 4 (22/04 - 28/04):
-Criação das Interfaces, Tela Menu, Tela Login, Tela Cadastro, Tela CRUD Chamados, Fluxo de Usuário, Relatório e Documentação.
-
-### Sprint 5 (29/04 - 05/05):
-Fluxo de Usuário, Relatório e Documentação.
-
+| Sprint    | Período           | Tarefas                                                                                                  |
+|-----------|-------------------|----------------------------------------------------------------------------------------------------------|
+| Sprint 1  | 01/04 - 07/04      | Diagramas de Classe, Diagrama de Objeto, Relatório e Documentação                                       |
+| Sprint 2  | 08/04 - 14/04      | Diagrama de Sequência, Relatório e Documentação                                                         |
+| Sprint 3  | 15/04 - 21/04      | Diagrama ER, Definição das Entidades, Definição dos Relacionamentos, Modelagem das Tabelas em SQL Server, Dicionário de Dados, Relatório e Documentação |
+| Sprint 4  | 22/04 - 28/04      | Criação das Interfaces, Tela Menu, Tela Login, Tela Cadastro, Tela CRUD Chamados, Fluxo de Usuário, Relatório e Documentação |
+| Sprint 5  | 29/04 - 05/05      | Fluxo de Usuário, Relatório e Documentação                                                               |
