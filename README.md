@@ -4,7 +4,7 @@ O Projeto consiste no desenvolvimento de um sistema help desk que organize as ch
 ## Requisitos
 Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmos representam as funcionalidades do sistema.
 
-- [Backlog do Sistema](Backlog.html)
+- [Backlog do Sistema](Backlog.md)
     
 ## Diagrama de Caso de Uso
 [![Diagrama de Caso de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/Caso_De_Uso.png?raw=true)](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaProjeto.asta)
