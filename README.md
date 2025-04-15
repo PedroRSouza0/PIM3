@@ -9,6 +9,9 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 ## Diagrama de Caso de Uso
 [![Diagrama de Caso de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/Caso_De_Uso.png?raw=true)](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaProjeto.asta)
 
+## Diagrama de Classes
+[![Diagrama de Classes](https://github.com/PedroRSouza0/PIM3/blob/main/diagramaclasses.png)]
+
 ## Sprint Backlog
 
 | Sprint    | Período           | Tarefas                                                                                                  |
