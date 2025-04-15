@@ -17,7 +17,7 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 | Sprint    | Período           | Tarefas                                                                                                  |
 |-----------|-------------------|----------------------------------------------------------------------------------------------------------|
 | Sprint 1  | 01/04 - 07/04      | Diagramas de Classe, Diagrama de Objeto, Relatório e Documentação                                       |
-| Sprint 2  | 08/04 - 14/04      | Diagrama de Sequência, Relatório e Documentação                                                         |
-| Sprint 3  | 15/04 - 21/04      | Diagrama ER, Definição das Entidades, Definição dos Relacionamentos, Modelagem das Tabelas em SQL Server, Dicionário de Dados, Relatório e Documentação |
+| Sprint 2  | 08/04 - 14/04      | Diagrama ER, Definição das Entidades, Definição dos Relacionamentos, Modelagem das Tabelas em SQL Server, Dicionário de Dados, Relatório e Documentação              
+| Sprint 3  | 15/04 - 21/04      | Diagrama de Sequência, Relatório e Documentação |
 | Sprint 4  | 22/04 - 28/04      | Criação das Interfaces, Tela Menu, Tela Login, Tela Cadastro, Tela CRUD Chamados, Fluxo de Usuário, Relatório e Documentação |
 | Sprint 5  | 29/04 - 05/05      | Fluxo de Usuário, Relatório e Documentação                                                               |
