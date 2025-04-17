@@ -1,7 +1,7 @@
 # Sistema integrado para a gestão de chamados e suporte técnico baseado em IA - PIM 
 
 
-## O Que é
+## O Que é:
 O projeto consiste no desenvolvimento de um sistema de help desk inteligente, voltado para a organização e gestão de chamados técnicos. A solução busca otimizar o atendimento inicial por meio de sugestões automáticas baseadas em inteligência artificial, oferecendo mais agilidade e eficiência no suporte ao usuário.
 
 
