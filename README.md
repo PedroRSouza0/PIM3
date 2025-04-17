@@ -12,6 +12,18 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 ## Diagrama de Classes
 ![Diagrama de Classes](https://github.com/PedroRSouza0/PIM3/blob/main/diagramaclasses.png)
 
+
+## Equipe
+
+| Nome | Github |
+|:------:|--------|
+| Pedro Henrique Rodrigues de Souza | [Github](https://github.com/PedroRSouza0) |
+| Luiz Miguel Lemes | [Github](https://github.com/manopassaro) |
+| Renan Nogueira | [Github](https://github.com/renanrnk) |
+| Lucas Antônio Goulart | [Github](https://github.com/LucasAntonioGS) |
+| Leonardo | [Github] |
+
+
 ## Sprint Backlog
 
 | Sprint    | Período           | Tarefas                                                                                                  |
