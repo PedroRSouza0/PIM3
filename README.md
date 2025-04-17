@@ -1,30 +1,34 @@
 # Sistema integrado para a gestão de chamados e suporte técnico baseado em IA - PIM 
-O Projeto consiste no desenvolvimento de um sistema help desk que organize as chamadas e as auxilie inicialmente através de sugestões por IA.
 
-## Requisitos
+
+## O que é
+O projeto consiste no desenvolvimento de um sistema de help desk inteligente, voltado para a organização e gestão de chamados técnicos. A solução busca otimizar o atendimento inicial por meio de sugestões automáticas baseadas em inteligência artificial, oferecendo mais agilidade e eficiência no suporte ao usuário.
+
+
+### Requisitos
 Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmos representam as funcionalidades do sistema.
 
 - [Backlog do Sistema](Backlog.md)
     
-## Diagrama de Caso de Uso
+### Diagrama de Caso de Uso
 [![Diagrama de Caso de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/Caso_De_Uso.png?raw=true)](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaProjeto.asta)
 
-## Diagrama de Classes
+### Diagrama de Classes
 ![Diagrama de Classes](https://github.com/PedroRSouza0/PIM3/blob/main/diagramaclasses.png)
 
 
-## Equipe
+### Equipe
 
 | Nome | Github |
 |:------:|--------|
-| Pedro Henrique Rodrigues de Souza | [Github](https://github.com/PedroRSouza0) |
-| Luiz Miguel Lemes | [Github](https://github.com/manopassaro) |
-| Renan Nogueira | [Github](https://github.com/renanrnk) |
-| Lucas Antônio Goulart | [Github](https://github.com/LucasAntonioGS) |
-| Leonardo | [Github] |
+| Pedro Henrique Rodrigues de Souza | [Github](https://github.com/PedroRSouza0) | (Product Owner)
+| Luiz Miguel Lemes | [Github](https://github.com/manopassaro) | (Scrum Master)
+| Renan Nogueira | [Github](https://github.com/renanrnk) | (Dev Team)
+| Lucas Antônio Goulart | [Github](https://github.com/LucasAntonioGS) | (Dev Team)
+| Leonardo | [Github] | (Dev Team)
 
 
-## Sprint Backlog
+### Sprint Backlog
 
 | Sprint    | Período           | Tarefas                                                                                                  |
 |-----------|-------------------|----------------------------------------------------------------------------------------------------------|
