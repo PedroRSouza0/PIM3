@@ -36,12 +36,11 @@ Este projeto tem como objetivo o desenvolvimento de um sistema inteligente de he
 Abaixo está a divisão do planejamento das Sprints para a organização do desenvolvimento do projeto.
 
 ### Sprint 1 (01/04 - 07/04)
-- Diagrama de Classe  
-- Diagrama de Objeto  
+- Diagrama de Casos de Uso  
 - Início do Relatório e Documentação
 
 ### Sprint 2 (08/04 - 14/04)
-- Criação das Interfaces  
+- Diagrama de Classe   
 - Tela Menu  
 - Tela Login  
 - Tela Cadastro  
@@ -50,6 +49,7 @@ Abaixo está a divisão do planejamento das Sprints para a organização do dese
 - Continuação do Relatório e Documentação
 
 ### Sprint 3 (15/04 - 21/04)
+- Aperfeiçoamento do Diagrama de Classe  
 - Aperfeiçoamento do Fluxo de Usuário  
 - Continuação do Relatório e Documentação
 
@@ -72,11 +72,11 @@ Os requisitos estão divididos entre funcionais e não funcionais. Os funcionais
 
 ## 🧠 Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](./mnt/data/e8faa4b9-02ee-4400-a5f8-e3e3d6b755f6.png)
+![Diagrama de Casos de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaCasosDeUso.asta)
 
 ## 🧱 Diagrama de Classes
 
-![Diagrama de Classes](./mnt/data/747bcab6-4223-4186-8836-43bb2b9b8e8b.png)
+![Diagrama de Classes](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaClasses.asta)
 
 ## 🧪 Tecnologias Utilizadas
 
