@@ -25,7 +25,7 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 | Luiz Miguel Lemes | [Github](https://github.com/manopassaro) | - Scrum Master 
 | Renan Nogueira | [Github](https://github.com/renanrnk) | - Dev Team
 | Lucas Antônio Goulart | [Github](https://github.com/LucasAntonioGS) | - Dev Team
-| Leonardo | [Github] | - Dev Team
+| Leonardo | [Github](https://github.com/leohamerico) | - Dev Team
 
 
 ### Sprint Backlog
