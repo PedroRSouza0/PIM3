@@ -21,11 +21,11 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 
 | Nome | Github |
 |:------:|--------|
-| Pedro Henrique Rodrigues de Souza | [Github](https://github.com/PedroRSouza0) | (Product Owner)
-| Luiz Miguel Lemes | [Github](https://github.com/manopassaro) | (Scrum Master)
-| Renan Nogueira | [Github](https://github.com/renanrnk) | (Dev Team)
-| Lucas Antônio Goulart | [Github](https://github.com/LucasAntonioGS) | (Dev Team)
-| Leonardo | [Github] | (Dev Team)
+| Pedro Henrique Rodrigues de Souza | [Github](https://github.com/PedroRSouza0) | - Product Owner
+| Luiz Miguel Lemes | [Github](https://github.com/manopassaro) | - Scrum Master 
+| Renan Nogueira | [Github](https://github.com/renanrnk) | - Dev Team
+| Lucas Antônio Goulart | [Github](https://github.com/LucasAntonioGS) | - Dev Team
+| Leonardo | [Github] | - Dev Team
 
 
 ### Sprint Backlog
@@ -34,6 +34,6 @@ Os Requisitos estão divididos entre funcionais e não funcionais, onde os mesmo
 |-----------|-------------------|----------------------------------------------------------------------------------------------------------|
 | Sprint 1  | 01/04 - 07/04      | Diagramas de Classe, Diagrama de Objeto, Relatório e Documentação                                       |
 | Sprint 2  | 08/04 - 14/04      | Diagrama ER, Definição das Entidades, Definição dos Relacionamentos, Modelagem das Tabelas em SQL Server, Dicionário de Dados, Relatório e Documentação              
-| Sprint 3  | 15/04 - 21/04      | Diagrama de Sequência, Relatório e Documentação |
+| Sprint 3  | 15/04 - 21/04      | Diagrama de Sequência, Protótipo de Tela, Relatório e Documentação |
 | Sprint 4  | 22/04 - 28/04      | Criação das Interfaces, Tela Menu, Tela Login, Tela Cadastro, Tela CRUD Chamados, Fluxo de Usuário, Relatório e Documentação |
 | Sprint 5  | 29/04 - 05/05      | Fluxo de Usuário, Relatório e Documentação                                                               |
