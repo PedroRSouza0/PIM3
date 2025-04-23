@@ -1,126 +1,146 @@
-### Requisitos Funcionais
-1. Cadastrar Usuário
+# 📡 Sistema de Gestão de Chamados com IA
 
-    1.1 - **Histórias de Usuário** - Cadastro de Clientes:
+Este projeto tem como objetivo automatizar a criação, filtragem e resolução de chamados técnicos utilizando Inteligência Artificial, promovendo agilidade no atendimento e organização no controle de suporte.
 
-    Como ADM, quero ser o único a cadastrar clientes no sistema.
+---
 
-    - Deve criar a funcionalidade cadastro de clientes.
-    - Restringi-la somente ao ADM do sistema.
-    - Validar dados, (E-mail, nome, senha).
-    - Exibir mensagem de erro ou sucesso.
+## ✅ Requisitos Funcionais
 
-    1.2 **Histórias de Usuário**: - Alterar Senha.
+### 1. Cadastrar Usuário
 
-    Como ADM, quero poder alterar a senha do usuário quando solicitado, garantindo o controle de acesso ao sistema.
+#### 1.1 - História de Usuário: Cadastro de Clientes
+> Como ADM, quero ser o único a cadastrar clientes no sistema.
 
-    - Criar funcionalidade para a alteração de senha.
-    - Validar dados da nova senha.
-    - Exibir mensagem de erro ou sucesso.
+- Criar a funcionalidade de cadastro de clientes.
+- Restringir acesso ao cadastro apenas para o ADM.
+- Validar dados como e-mail, nome e senha.
+- Exibir mensagens de erro ou sucesso.
 
-2. Login
+#### 1.2 - História de Usuário: Alterar Senha
+> Como ADM, quero poder alterar a senha do usuário quando solicitado, garantindo o controle de acesso ao sistema.
 
-    2.1 - **Histórias de Usuário**: - Login.
+- Criar funcionalidade para alteração de senha.
+- Validar os dados da nova senha.
+- Exibir mensagens de erro ou sucesso.
 
-    Como Usuário, quero logar no sistema para fazer o uso das funcionalidades.
+---
 
-    - Criar o sistema de Login.
-    - Validar dados de cadastro, (E-mail, nome, senha).
-    - Exibir mensagem de erro ou sucesso.
+### 2. Login
 
-3. CRUD de Chamados.
+#### 2.1 - História de Usuário: Login
+> Como usuário, quero logar no sistema para utilizar suas funcionalidades.
 
-    3.1 - **Histórias de Usuário** - Criar Chamado
+- Criar o sistema de login.
+- Validar dados de acesso (e-mail, nome e senha).
+- Exibir mensagens de erro ou sucesso.
 
-    Como usuário quero utilizar o sistema para abrir um novo chamado e solicitar suporte.
+---
 
-    - Criar o sistema de Novo chamado.
-    - Permitir que o usuário infome sobre o chamado. (Título, descrição do problema, categoria e prioridade).
-    - Exibir mensagem de erro ou sucesso ao criar o chamado.
+### 3. CRUD de Chamados
 
-    3.2 **Histórias de Usuário** - Vizualizar Chamado
+#### 3.1 - História de Usuário: Criar Chamado
+> Como usuário, quero abrir um novo chamado e solicitar suporte.
 
-    Como usuário, quero vizualizar o chamado recém criado, ou chamados antigos em espera para consultar o andamento.
+- Criar o sistema de novo chamado.
+- Permitir que o usuário informe título, descrição, categoria e prioridade.
+- Exibir mensagens de erro ou sucesso.
 
-    - Permitir a visualização dos chamados disponiveís.
-    - Permitir a visualização das especificações dos chamados.
-    - Exibir status do chamado (Aberto, Em andamento, Fechado).
+#### 3.2 - História de Usuário: Visualizar Chamado
+> Como usuário, quero visualizar meus chamados para acompanhar o andamento.
 
-    3.3 **Histórias de Usuário** - Editar Chamado
+- Permitir visualização de chamados.
+- Exibir especificações e status (Aberto, Em andamento, Fechado).
 
-    Como usuário, quero poder editar os chamados criados, permitindo incluir ou excluir especificações, facilitando a resolução.
+#### 3.3 - História de Usuário: Editar Chamado
+> Como usuário, quero editar os chamados criados para facilitar a resolução.
 
-    - Permitir a edição das especificações a partir da vizualização do chamado.
-    - Salvar os dados alterados
-    - Exibir mensagem de erro ou sucesso.
+- Permitir edição das especificações.
+- Salvar as alterações.
+- Exibir mensagens de erro ou sucesso.
 
-    3.4 **Histórias de Usuário** - Cancelar Chamado
+#### 3.4 - História de Usuário: Cancelar Chamado
+> Como usuário, quero poder cancelar um chamado antes de sua resolução, se necessário.
 
-    Como usuário, quero poder cancelar um chamado antes dele ser resolvido caso não precise mais de suporte.
+- Verificar se o chamado está aberto.
+- Permitir cancelamento apenas de chamados não resolvidos.
+- Exibir mensagem de confirmação.
+- Registrar o motivo do cancelamento.
 
-    - Verificar se o chamado está aberto.
-    - Restringir o cancelamento apenas a chamados ainda não resolvidos.
-    - Exibir mensagem de confirmação.
-    - Registrar o motivo do cancelamento.
+#### 3.5 - História de Usuário: Excluir Chamado
+> Como ADM, quero excluir chamados fechados para manter a organização.
 
-    3.5 **Histórias de Usuário** - Excluir Chamado.
+- Criar a funcionalidade de exclusão.
+- Validar dados do administrador.
+- Restringir a funcionalidade somente ao ADM.
+- Exibir mensagens de erro ou sucesso.
 
-    Como ADM, quero excluir chamados fechados, garantindo a organização do trabalho.
+---
 
-    - Criar a funcionalidade de exclusão.
-    - Validar dados do Administrador.
-    - Restringir funcionalidade somente ao ADM.
-    - Exibir mensagem de erro ou sucesso.
+### 4. Filtragem e Resolução de Chamados por IA
 
+#### 4.1 - História de Usuário: Filtragem de Chamados
+> Como IA, quero analisar automaticamente os chamados para identificar o problema e sua categoria.
 
-4. Filtragem e Resolução de Chamados por IA.
+- Criar mecanismo de IA para análise de chamados.
+- Exibir retorno da IA com especificações do problema.
+- Informar se a IA pode resolver ou se um técnico será necessário.
 
-    4.1 **Histórias de Usuário** - Filtragem de Chamados.
+#### 4.2 - História de Usuário: Resolução por IA
+> Como usuário, quero receber uma resolução automática após análise da IA para agilizar o atendimento.
 
-    Como IA, quero analisar os chamados automáticamente, identificando o problema e sua categoria.
+- Criar funcionalidade de sugestão de solução automática.
+- Validar a solução antes de encerrar o chamado.
+- Encaminhar ao técnico caso a IA não resolva.
 
-    - Criar um mecanismo de IA para analisar os chamados.
-    - Receber o feedback da IA após a filtragem com as especifiações do problema.
-    - Exibir mensagem indicando que ela resolverá ou se será necessário acionar um técnico.
+---
 
-    4.2 **Histórias de Usuário** - Resolução por IA.
+### 5. Resolução por Técnico
 
-    Como usuário, quero receber a resolução do problema solicitado após a filtragem e análise do mesmo, diminuindo o tempo de espera.
+#### 5.1 - História de Usuário: Encaminhamento de Chamados
+> Como sistema, quero encaminhar chamados a técnicos quando a IA não conseguir resolvê-los.
 
-    - Criar a funcionalidade para a IA dar sugestões automáticas. 
-    - Validar as soluções antes de encerrar o chamado.
-    - Caso a solução não resolver, encaminhar ao técnico especialista.
+- Criar funcionalidade de acionamento de técnico.
+- Enviar notificação com o problema e suas especificações.
+- Atualizar status para "Aguardando Técnico".
 
-5. Resolução por Técnico.
+#### 5.2 - História de Usuário: Resolução por Técnico
+> Como técnico, quero analisar os chamados encaminhados e registrar a solução.
 
-    5.1 **Histórias de Usuário** - Encaminhamento de chamados
+- Criar interface para visualização dos chamados por técnicos.
+- Validar dados de acesso do técnico.
+- Permitir registro da solução.
+- Exibir mensagens de erro ou sucesso.
 
-    Como sistema, quero enchaminhar chamados aos técnicos quando a IA não resolve-los.
+---
 
-    - Criar a funcionalidade de acionar técnico.
-    - Enviar uma notificação ao técnico contendo o problema e suas especificações.
-    - Alterar o status do chamado ao usuário para "Aguardando Técnico".
+## 🚫 Requisitos Não Funcionais
 
-    5.2 **Histórias de Usuário** - Resolução por Técnico
+### 1. Banco de Dados e Compatibilidade
+- O sistema deve ser compatível com **SQL Server**, garantindo integridade e consistência dos dados.
 
-    Como técnico, quero analisar os chamados encaminhados para análisa-los e devolver uma solução.
+### 2. Inteligência Artificial
+- Deve integrar um módulo de IA para triagem automática de problemas e sugestões de soluções.
 
-    - Criar interface para os técnicos vizualizarem os chamados.
-    - Verificar e validar dados de acesso do técnico.
-    - Permitir que o técnico registre a solução.
-    - Exibir mensagem de erro ou sucesso.
+### 3. Segurança
+- As senhas devem ser armazenadas de forma segura, utilizando **hash e criptografia**.
+- O campo de senha deve exibir caracteres **mascarados** para impedir visualização por terceiros.
 
-### Requisitos não funcionais
-1. Banco de Dados e Compatibilidade
+---
 
-    1.1 - O sistema deve ser compatível com SQL Server, garantindo a integridade e consistência dos dados armazenados.
+## 📌 Tecnologias Utilizadas
+- C#
+- ASP.NET Core MVC
+- Entity Framework Core
+- SQL Server
+- Bootstrap
+- HTML/CSS
+- IA (integração com modelo de linguagem)
 
-2. Inteligência Artificial
+---
 
-    2.1 - O sistema deve integrar um módulo de IA para análise e resolução de chamados, permitindo a triagem automática de problemas e sugestão de soluções antes do encaminhamento a um técnico.
+## 👨‍💻 Autor
+**Renan**  
+Desenvolvedor e estudante de Análise e Desenvolvimento de Sistemas. Apaixonado por tecnologia e IA.
 
-3. Segurança
+---
 
-    3.1 - As senhas dos usuários devem ser armazenadas de forma segura, utilizando hash e criptografia para evitar acessos não autorizados.
-    
-    3.2 - O campo de entrada de senha deve exibir os caracteres mascarados, impedindo a visualização por terceiros durante a digitação.
