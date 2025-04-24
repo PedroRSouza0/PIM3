@@ -78,6 +78,10 @@ Os requisitos estão divididos entre funcionais e não funcionais. Os funcionais
 
 [Diagrama de Classes](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaClasses.asta)
 
+## Protótipo de Interface
+
+[Protótipo de Tela](https://www.figma.com/proto/PNPPrRL9X2HOf28W2uVfBA/Untitled?node-id=0-1&t=lVBYdFW5QGeTdOtv-1)
+
 ## 🧪 Tecnologias Utilizadas
 
 - C# com ASP.NET Core MVC
@@ -87,6 +91,7 @@ Os requisitos estão divididos entre funcionais e não funcionais. Os funcionais
 - JavaScript
 - Git e GitHub
 - Visual Studio / VS Code
+- Figma
 
 ## 📚 Documentação
 
