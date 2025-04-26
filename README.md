@@ -82,6 +82,10 @@ Os requisitos estão divididos entre funcionais e não funcionais. Os funcionais
 
 [Protótipo de Tela](https://www.figma.com/proto/PNPPrRL9X2HOf28W2uVfBA/Untitled?node-id=0-1&t=lVBYdFW5QGeTdOtv-1)
 
+## Modelo Banco de Dados
+
+[Diagrama Entidade Relacionamento](https://github.com/PedroRSouza0/PIM3/blob/main/Modelo%20Conceitual%20Banco%20de%20Dados%20PIM.brM3)
+
 ## 🧪 Tecnologias Utilizadas
 
 - C# com ASP.NET Core MVC
