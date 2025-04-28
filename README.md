@@ -48,12 +48,12 @@ Abaixo está a divisão do planejamento das Sprints para a organização do dese
 - Fluxo de Usuário  
 - Continuação do Relatório e Documentação
 
-### [Sprint 3 (15/04 - 21/04)]()
+### [Sprint 3 (15/04 - 21/04)](https://github.com/PedroRSouza0/PIM3/blob/main/Sprints/Sprint%203.md)
 - Aperfeiçoamento do Diagrama de Classe  
 - Aperfeiçoamento do Fluxo de Usuário  
 - Continuação do Relatório e Documentação
 
-### [Sprint 4 (22/04 - 28/04)]()
+### [Sprint 4 (22/04 - 28/04)](https://github.com/PedroRSouza0/PIM3/blob/main/Sprints/Sprint%204.md)
 - Diagrama de Sequência  
 - Protótipo de Tela  
 - Diagrama Entidade Relacionamento
