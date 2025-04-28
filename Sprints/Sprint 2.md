@@ -1,6 +1,6 @@
 # Sprint 2 [08/04 - 14/04]
 
-Sprint destinada ao desenvolvimento do diagrama de classes; protótipo de tela e a continuação do relatório e documentação do projeto.
+Sprint destinada ao desenvolvimento do diagrama de classes; protótipo de tela; fluxo de usuário e a continuação do relatório e documentação do projeto.
 
 ## Diagrama de Classes
 
