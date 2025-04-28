@@ -35,12 +35,11 @@ Este projeto tem como objetivo o desenvolvimento de um sistema inteligente de he
 
 Abaixo está a divisão do planejamento das Sprints para a organização do desenvolvimento do projeto.
 
-### Sprint 1 (01/04 - 07/04)
-- [Acesso]()
+### [Sprint 1 (01/04 - 07/04)](https://github.com/PedroRSouza0/PIM3/blob/main/Sprints/Sprint%201.md)
 - Diagrama de Casos de Uso  
 - Início do Relatório e Documentação
 
-### Sprint 2 (08/04 - 14/04)
+### [Sprint 2 (08/04 - 14/04)]()
 - Diagrama de Classe   
 - Tela Menu  
 - Tela Login  
@@ -57,12 +56,10 @@ Abaixo está a divisão do planejamento das Sprints para a organização do dese
 ### Sprint 4 (22/04 - 28/04)
 - Diagrama de Sequência  
 - Protótipo de Tela  
+- Diagrama Entidade Relacionamento
 - Continuação do Relatório e Documentação
 
-### Sprint 5 (29/04 - 05/05)
-- Diagrama ER  
-- Definição das Entidades  
-- Definição dos Relacionamentos  
+### Sprint 5 (29/04 - 05/05) 
 - Modelagem das Tabelas no SQL Server  
 - Dicionário de Dados  
 - Finalização do Relatório e Documentação
