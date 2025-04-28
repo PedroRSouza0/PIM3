@@ -36,6 +36,7 @@ Este projeto tem como objetivo o desenvolvimento de um sistema inteligente de he
 Abaixo está a divisão do planejamento das Sprints para a organização do desenvolvimento do projeto.
 
 ### Sprint 1 (01/04 - 07/04)
+- [Acesso]()
 - Diagrama de Casos de Uso  
 - Início do Relatório e Documentação
 
