@@ -1,0 +1,45 @@
+CREATE TABLE Usuario (
+    id_usuario INT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100),
+    senha VARCHAR(100),
+    tipo_acesso VARCHAR(50)
+);
+
+CREATE TABLE Chamado (
+    id_chamado INT PRIMARY KEY,
+    titulo VARCHAR(200),
+    descricao TEXT,
+    status VARCHAR(50),
+    data_abertura DATETIME,
+    data_fechamento DATETIME,
+    id_usuario INT,
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+);
+
+CREATE TABLE IA_Assistente (
+    id_ia INT PRIMARY KEY,
+    nome_modelo VARCHAR(100),
+    versao VARCHAR(20),
+    desempenho DECIMAL(5,2)
+);
+
+CREATE TABLE Tecnico (
+    id_tecnico INT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100),
+    especialidade VARCHAR(100)
+);
+
+CREATE TABLE Historico_Interacao (
+    id_interacao INT PRIMARY KEY,
+    origem VARCHAR(50),
+    mensagem TEXT,
+    data_hora DATETIME,
+    id_chamado INT,
+    id_ia INT NULL,
+    id_tecnico INT NULL,
+    FOREIGN KEY (id_chamado) REFERENCES Chamado(id_chamado),
+    FOREIGN KEY (id_ia) REFERENCES IA_Assistente(id_ia),
+    FOREIGN KEY (id_tecnico) REFERENCES Tecnico(id_tecnico)
+);
