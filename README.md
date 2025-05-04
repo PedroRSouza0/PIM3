@@ -68,13 +68,9 @@ Abaixo está a divisão do planejamento das Sprints para a organização do dese
 
 Os requisitos estão divididos entre funcionais e não funcionais. Os funcionais representam as funcionalidades do sistema (citadas acima).
 
-## 🧠 Diagrama de Casos de Uso
+## 🧠 Diagrama de Funcionamento do Sistema
 
 [Diagrama de Casos de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaCasosDeUso.asta)
-
-## 🧱 Diagrama de Classes
-
-[Diagrama de Classes](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaClasses.asta)
 
 ## Protótipo de Interface
 
