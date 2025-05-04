@@ -70,7 +70,7 @@ Os requisitos estão divididos entre funcionais e não funcionais. Os funcionais
 
 ## 🧠 Diagrama de Funcionamento do Sistema
 
-[Diagrama de Casos de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/DiagramaCasosDeUso.asta)
+[Diagrama de Casos de Uso](https://github.com/PedroRSouza0/PIM3/blob/main/Diagrama_De_Funcionamento_Do_Sistema.asta)
 
 ## Protótipo de Interface
 
