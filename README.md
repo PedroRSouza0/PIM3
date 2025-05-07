@@ -27,9 +27,9 @@ Este projeto tem como objetivo o desenvolvimento de um sistema inteligente de he
 |------------------------------|----------|
 | Pedro Henrique Rodrigues de Souza | [GitHub](#) |
 | Luiz Miguel Lemes                 | [GitHub](#) |
-| Renan Nogueira                   | [GitHub](#) |
-| Lucas Antônio Goulart            | [GitHub](#) |
-| Leonardo                         | [GitHub](#) |
+| Renan Nogueira                    | [GitHub](#) |
+| Lucas Antônio Goulart             | [GitHub](#) |
+| Leonardo Henrique                 | [GitHub](#) |
 
 ## 📅 Sprint Planning
 
