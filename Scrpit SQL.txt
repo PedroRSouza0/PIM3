@@ -1,3 +1,7 @@
+CREATE DATABASE SistemaChamados;
+
+USE SistemaChamados;
+
 CREATE TABLE Usuario (
     id_usuario INT PRIMARY KEY,
     nome VARCHAR(100),
