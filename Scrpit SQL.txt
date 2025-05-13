@@ -14,7 +14,7 @@ CREATE TABLE Chamado (
     id_chamado INT PRIMARY KEY,
     titulo VARCHAR(200),
     descricao TEXT,
-    status VARCHAR(50),
+    status INT,
     data_abertura DATETIME,
     data_fechamento DATETIME,
     prioridade INT,
