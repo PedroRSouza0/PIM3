@@ -136,11 +136,3 @@ Este projeto tem como objetivo automatizar a criação, filtragem e resolução 
 - HTML/CSS
 - IA (integração com modelo de linguagem)
 
----
-
-## 👨‍💻 Autor
-**Renan**  
-Desenvolvedor e estudante de Análise e Desenvolvimento de Sistemas. Apaixonado por tecnologia e IA.
-
----
-
