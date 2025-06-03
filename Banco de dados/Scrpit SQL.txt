@@ -5,21 +5,21 @@ USE SistemaChamados;
 CREATE TABLE Usuario (
     id_usuario INT IDENTITY(1,1), PRIMARY KEY NOT NULL,
     nome VARCHAR(100) NOT NULL,
-    email VARCHAR(100),
+    email VARCHAR(100) NOT NULL,
     senha VARCHAR(100) NOT NULL,
-    tipo_acesso VARCHAR(50)
+    tipo_acesso VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE Chamado (
     id_chamado INT IDENTITY(1,1), PRIMARY KEY NOT NULL,
-    titulo VARCHAR(200),
-    descricao TEXT,
-    status INT,
-    data_abertura DATETIME,
-    data_fechamento DATETIME,
-    prioridade INT,
-    id_usuario INT,
-    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+    titulo VARCHAR(200) NOT NULL,
+    descricao TEXT NULL,
+    status INT NOT NULL,
+    data_abertura DATETIME NOT NULL,
+    data_fechamento DATETIME NULL,
+    prioridade INT NOT NULL,
+    id_usuario INT NOT NULL,
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario) 
 );
 
 CREATE TABLE IA_Assistente (
